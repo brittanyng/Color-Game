@@ -19,7 +19,6 @@ for (var i = 0; i < modeBtns.length; i++) {
         if (this.textContent === "Easy") { numOfSquares = 3; }
         else if (this.textContent === "Medium") { numOfSquares = 6; }
         else if (this.textContent === "Hard") { numOfSquares = 9; }
-
         reset();
     });
 }
