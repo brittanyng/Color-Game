@@ -51,7 +51,6 @@ resetButton.addEventListener("click", function(){
     reset();
 });
 
-
 function changeColors(color) {
     for (var i = 0; i < numOfSquares; i++) {
         squares[i].style.backgroundColor = color;
